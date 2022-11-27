@@ -1,0 +1,217 @@
+/*common css start*/
+body{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	margin: 0;
+}
+/*common css end*/
+
+/*header start*/
+header{
+	padding: 10px 0;
+}
+
+.wrapper{
+	width: 85%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo{
+	width: 10%;
+	float: left;
+	margin-top: 1px;
+}
+
+.logo img{
+	width: 100%;
+}
+
+.menu{
+	width: 40%;
+	float: right;
+}
+
+.menu ul{
+	float: right;
+}
+
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 0 21px;
+	display: inline-block;
+	color: #0f2656;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+
+.line{
+	border-bottom: 2px solid #f0f2f4;
+}
+/*header end*/
+
+
+/*2nd content start*/
+
+.wrapper_1{
+	width: 50%;
+	margin: 0 auto;
+    text-align: center;
+
+}
+
+.wrapper_1 h1{
+	padding: 0 200px;
+    margin-bottom: 0;
+    line-height: 42px;
+    font-weight: 700;
+    color: #0f2656;
+    margin-top: 35px;
+
+}
+
+.wrapper_1 span{
+	color: #008aff;
+}
+
+.wrapper_1 p{
+	line-height: 24px;
+	margin-top: 12px;
+	margin-bottom: 30px;
+	color: #0f2656;
+}
+
+.img_1{
+	width: 75%;
+	margin: 0 auto;
+}
+
+.img_1 img{
+	width: 100%;
+}
+/*2nd content end*/
+
+
+/*3rd content start*/
+.text-1{
+	width: 49%;
+	float: left;
+	padding: 80px 0;
+	line-height: 25px;
+}
+
+.text-1 h1{
+	margin: 0 106px;
+	font-size: 35px;
+	color: #f15767;
+}
+
+.text-2{
+	text-align: right;
+}
+
+.text-2 span{
+    color: #0f2656;
+}
+
+.text-3{
+	width: 49%;
+	float: right;
+	padding: 78px 0;
+}
+
+.text-3 h1{
+	margin: 0px -195px;
+    text-align: left;
+    font-size: 45px;
+    line-height: 50px;
+    color: #0f2656;
+} 
+
+
+
+/*3rd content end*/
+
+
+/*future content start*/
+.features{}
+
+.s_f{
+    width: 28%;
+    padding: 40px 1%;
+    float: left;
+    margin-right: 5%;
+
+}
+
+.pink{
+	background-color: #fdebed;
+}
+
+.green{
+	background-color: #ebf9f4;
+}
+
+.yellow{
+	background-color: #fff7e8;
+}
+
+.s_f:last-child {
+	margin-right: 0;
+}
+
+.f_P{}
+
+.f_P img{
+	width: 100%;
+}
+
+
+.s_f h2{
+	font-size: 20px;
+	font-weight: 700;
+	margin: 15px 0;
+	color: #0f2656;
+}
+
+.s_f p{
+	padding-right: 52px;
+	line-height: 25px;
+	margin: 0;
+	color: #0f2656;
+}
+/*future content end*/
+
+
+/*footer start*/
+
+.footer{
+	width: 100%;
+	height: 65px;
+	background-color: #008aff;
+	display: table;
+	margin-top: 80px;
+}
+
+.footer span{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #81c8ff;
+    font-size: 11px;
+}
+
+.footer a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+/*footer end*/
